@@ -1,0 +1,173 @@
+body{
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container{
+  width: 496px;
+  height: 1150px;
+  background: rgba(233, 233, 233, 0.25);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  width: 340px;
+  height: 1150px;
+}
+.btnsAuth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #153416;
+  border-radius: 30px;
+}
+.btnsAuth>button{
+  width: 49%;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;  
+}
+.btnActive{
+  background: #153416;
+}
+.btnNoBG{
+  background: none;
+}
+.authTitle{
+  margin-top: 80px;
+  margin-bottom: 29px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.inputForm{
+  display: block;
+  width: 318px;
+  height: 44px;
+  background: #929191;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 15px;
+}
+.inputForm::placeholder{
+  padding-left: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.secondBtns{
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rememberMeBlock{
+  display: flex;
+  align-items: center;
+}
+.rememberMeBlock>label{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  
+}
+.secondBtns>a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #153416;
+}
+.signInBtn{
+  margin-top: 30px;
+  cursor: pointer;
+  width: 100%;
+  height: 44px;
+  border-radius: 30px;
+  background: #153416;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;  
+}
+.createAccount{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.createAccount>p{
+  margin-right: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #153416;
+}
+.createAccount>a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.signOtherText{
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #153416;
+}
+.socialContainer{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.socialWrapper{
+  width: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialWrapper>svg{
+  width: 24px;
+  height: 24px;
+}
