@@ -7,7 +7,7 @@ body{
 }
 .container{
   width: 496px;
-  height: 1150px;
+  height: 750px;
   background: rgba(233, 233, 233, 0.25);
   backdrop-filter: blur(5px);
   display: flex;
@@ -15,7 +15,7 @@ body{
 }
 .wrapper{
   width: 340px;
-  height: 1150px;
+  height: 750px;
 }
 .btnsAuth{
   display: flex;
